@@ -22,6 +22,10 @@ const data = [
         url:"https://blog.csdn.net/qq_38025939"
     },
     {
+        name: "",
+        url:"https://blog.csdn.net/qq_38025939"
+    },
+    {
         name: "img",
         url:"./img/icon.png"
     }
@@ -57,9 +61,7 @@ img.addEventListener('click',function(){
     }else{
         document.querySelector('nav ul').classList = '';
         flag = !flag;
-
     }
-
 });
 document.querySelector('nav').addEventListener('mouseleave',function(){
     document.querySelector('nav ul').classList = '';
